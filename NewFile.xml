@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:web="http://www.PMSIOnline.Com/TmesysWebservices/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<web:SearchForSubscribers>
+			<web:ClaimNumber>RTVAL7</web:ClaimNumber>
+		</web:SearchForSubscribers>
+	</soapenv:Body>
+</soapenv:Envelope>
+<!-- ||ClaimNumber,City,FirstName,LastName,Zip,Address1,SOJ,Gender,EmployerName -->
+
+<!-- 
+416444445,WESTERVILLE,JKSDHDKLA,KSJLHASKLDJHKL,324908230,250 NORTH WAY,North Carolina (NC),Male,OPTUM,||
+7416444445,WESTERVILLE,JKSDHDKLA,KSJLHASKLDJHKL,324908230,250 NORTH WAY,NC,M,OPTUM, -->
+
+<!-- 
+http://ws40mock.pmsionline.com/tmesys/webclaims.asmx
+http://ws40mock.pmsionline.com/tmesys/webclaims.asmx?WSDL
+ -->
+<!-- 
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:w56="http://www.W5683C35.Request.com" xmlns:chan="http://www.ibm.com/xmlns/prod/CICS/channel-instance"> 
+	-->
